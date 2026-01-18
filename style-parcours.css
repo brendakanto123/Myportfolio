@@ -1,0 +1,139 @@
+p{
+    text-align: justify;
+}
+
+/*Expérience*/
+
+.experience {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+}
+
+.experience-titre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.experience-titre h3 {
+  font-size: 17px;
+  flex: 1;
+  color:grey;
+}
+
+.experience-titre img {
+  width: 90px;
+  height: auto;
+  object-fit: contain;
+  margin-left: 20px;
+}
+
+.experience ul {
+  padding-left: 20px;
+}
+
+.experience ul li {
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+table td ul {
+    padding-left: 15px;
+}
+
+table td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+table td img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+/* Compétences */
+
+.Competences{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.carte{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 260px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carte h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.carte ul {
+    padding-left: 20px;
+}
+
+.btn {
+    display: block;
+    margin: 30px auto;
+    max-width: 200px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: hotpink;
+    color: white;
+    border : none;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: pink;
+}
+
+.carte table {
+    width: 100%;           
+    border-collapse: collapse;
+}
+
+.carte th, .carte td {
+    border: 1px solid #ddd; 
+    padding: 8px 12px;
+    text-align: left;
+    color: #333;
+}
+
+.carte th {
+    background-color: hotpink; 
+    color: white;
+}
+
+/* Certification */
+.certifications {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.certifications img {
+    width: 70px;
+    margin: 40px;
+}
+
+@media (max-width: 768px) {
+    .Competences {
+        flex-direction: column;
+        align-items: center;
+    }
+}

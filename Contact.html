@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playwrite+DK+Loopet:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--Création du header-->
+    <header>
+        <img src="images/logo3.png" alt="Mon Logo">
+        <nav>
+            <ul>
+                <li><a href="Accueil.html">ACCUEIL</a></li>
+                <li><a href="Parcours.html">PARCOURS</a></li>
+                <li><a href="Projets.html">PROJETS</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<div class="titre-form">
+<h1>Envie de collaborer, discuter ou échanger ?</h1>
+<p>Remplis le formulaire ci-dessous pour me contacter.</p>
+</div>
+<!-- Formulaire-->
+	<form>
+		<label for="nom">Nom *: </label>
+		<input type="text" id="nom" name="nom">
+	<br><br>
+		<label for="mail">Adresse e-mail *: </label>
+		<input type="text" id="mail" name="mail">
+	<br><br>
+	<select id="objet" name="objet">
+		<option value="">Objet</option>
+		<option value="Collaboration">Collaboration</option>
+		<option value="Emploi">Proposition d'emploi</option>
+		<option value="Autre">Autre</option>
+	</select>
+	<br><br>
+		<label for="Message">Ton message</label><br>
+		<textarea id="Message" name="Message"></textarea><br>
+
+    <button type="submit">Envoyer</button>
+	</form>
+
+<footer class="footer">
+    <img src="images/logo3.png" alt="Mon logo"/>
+    <p>Retrouvez-moi sur 
+        <a href="https://www.linkedin.com/in/brenda-randrianekena-a33b75225" target="_blank" rel="noopener noreferrer">
+            <img src="images/linkedin.webp" alt="LinkedIn" class="logo-linkedin">
+        </a>
+    </p>
+</footer>
+</body>
+</html>
+

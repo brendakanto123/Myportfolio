@@ -1,0 +1,159 @@
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*  Intro */
+.bloc.intro {
+    background: url('images/intro-photo.png') no-repeat center;
+    background-size: cover;
+    color: #eaeaea;
+    text-align: center;
+    height: 85vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.bloc.intro-text h1 {
+    color :#333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.prenom {
+    color: hotpink;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:hotpink;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background-color: pink ;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Citation & Présentation */
+.P.intro {
+    padding: 40px 300px;
+    text-align: center;
+    background-color:#333;
+    color : white
+}
+
+.P.intro h3 {
+    font-family: "Playwrite DK Loopet", cursive;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Résumé Parcours */
+
+.Resume ul {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.Resume li {
+    margin-bottom: 5px;
+}
+
+li::marker {
+  color: hotpink;         
+}
+
+.Resume p {
+    text-align: justify;
+}
+
+
+/* Redirection Blocs */
+.Redirection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.Redirection .bloc {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-decoration: none;
+    color: #333;
+}
+
+.Redirection .bloc:hover {
+    transform: translateY(-5px);
+}
+
+.Redirection img {
+    width: 100%;
+    height: 150px;
+    object-fit:contain;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Références*/
+.Reference {
+  padding: 40px 40px;
+  background-color: white;
+  text-align: center;
+}
+
+.logos-marque {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.logos-marque img {
+  max-height: 60px;
+  max-width: 120px;
+  object-fit: contain;
+  filter: saturate(0);
+}
+
+/* Responsive*/
+@media (max-width: 768px) {
+    .bloc.intro {
+        padding: 60px 20px;
+    }
+    .Redirection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Redirection .bloc {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .P.intro {
+        padding: 40px 20px;
+    }
+}

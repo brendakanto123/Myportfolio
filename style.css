@@ -1,0 +1,116 @@
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: antiquewhite;
+}
+
+/* Général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #1d1d1d;
+    line-height: 1.5;
+    
+}
+
+
+
+h1 {
+    color :#333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    text-align: center;
+    color: hotpink;
+    font-size: 28px;
+      color: hotpink;
+}
+
+.Resume {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Footer */
+footer.footer {
+    background-color:#1d1d1d;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer img {
+    height: 50px;
+}
+
+footer.footer p {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+footer.footer a {
+    color: #60a5fa;
+    text-decoration: underline;
+}
+
+footer.footer a:hover {
+    color: #93c5fd;
+}
+
+.logo-linkedin{
+    height: 40px;
+    vertical-align:middle;
+
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding :10px;
+    }
+    nav a{
+        font-size: 14px;
+    }
+
+}
+

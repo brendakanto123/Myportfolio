@@ -1,0 +1,22 @@
+h2{
+    padding: 20px 10px;
+    text-align: left;
+}
+
+.btn {
+    display: block;
+    margin: 30px auto;
+    max-width: 200px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    border : none;
+    border-radius: 25px;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: #333;
+}
+
